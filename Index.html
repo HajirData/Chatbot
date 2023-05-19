@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Search</title>
+</head>
+<body>
+    <h1>Google Search</h1>
+    <form action="{{ url_for('search') }}" method="POST">
+        <input type="text" name="query" placeholder="Enter your search query">
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
